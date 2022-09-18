@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="d1">
+            <img src="https://es.justexw.com/wp-content/uploads/sites/2/maneras-convertir-numeros-negativos-positivo.jpg" alt="Imagen positivo-negativo" width="200px" height="200px">
+            <h3>Numero Negativo o Positivo?</h3>
+            <div class="d-grid gap-2 col-2 mx-auto">
+                <button class="btn btn-primary" type="button" onclick =" promptdemo() ">Presione para continuar</button>
+            </div>
+        </div>
+    </div>
+    
+ <script>
+function promptdemo() {
+    
+    var number;
+    
+    number = prompt ("ingrese un número:");
+    
+    if (number == 0) {alert ("El número es Positivo");
+}
+    else if (number < 0) {alert ("El número es NEGATIVO");
+}
+    else if (number > 0) {alert ("El número es Positivo");
+}
+    else {alert ("No ingreso ningun numero");
+}
+    
+    
+    
+   }
+ </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
